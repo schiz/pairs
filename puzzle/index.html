@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+
+ 
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title></title> 
+
+     <link rel="stylesheet/less" type="text/css" href="css/styles.less"> 
+     <script src="js/less.js" type="text/javascript"></script>
+
+     <script src="js/blowfish.min.js" type="text/javascript"></script>
+     <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+   <!--  <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />    -->
+
+  </head>
+
+  <body>
+
+
+    <!-- Main container start -->    
+
+      <section class="container">
+
+      <section class="wrapper">
+
+          <!-- start screnn -->
+
+        <section class="start-screen">
+
+          <a class="start-btn" href="#">
+
+            <img src="images/start-btn.png"/>
+
+          </a>
+
+          <a class="rules-btn" href="#">Правила</a>
+
+          <a class="ranking-btn" data-type="outerLink" href="#rating.html">Рейтинг</a>
+
+        </section>
+
+        <!-- end start screen -->
+
+
+
+        <!-- rules screen -->
+
+        <div class="rules-screen">
+
+          <header>Правила игры "Паззлы"</header>
+
+          <figure class="rules-text">
+
+            <div class="text-wrapper">
+              Чтобы правильно собрать головоломку, 
+              необходимо знать несколько простых 
+              правил, с которыми вам легче будет 
+              справиться с этой задачей. 
+              Для начала распакуйте пазл и сложите 
+              все детали в одну кучу. После этого 
+              постарайтесь выбрать все крайние 
+              элементы (одна из сторон должна быть 
+              прямой, а у угловых пазлов - две 
+              стороны) и соберите рамку картины. 
+              Теперь, согласуясь с изображением, 
+              подбирайте по цвету элементы и 
+              группируйте их таким образом, чтобы 
+              они без проблем стыковались с другими
+            </div>
+
+            
+
+          </figure>
+
+
+
+        </div>
+
+        <!-- end rules scree -->
+
+
+
+
+
+        <!-- game screen -->
+
+        <section class="game-screen">
+
+          <figure class="info">
+
+            <div class="timer">0:00</div>
+
+            <a class="reload" href="#">
+
+              <img src="images/reload.png"/>
+
+            </a>
+
+            <div class="errorsCount">Ошибки: <span id="errors">0</span> </div>
+
+          </figure>
+
+          <figure class="game-field">
+            <img class="noColor" src="images/noColor.png">
+          </figure> 
+
+        </section>
+
+        <!-- end game screen -->
+
+        <!-- result screen start -->
+
+        <section class="result-screen">
+
+          <header>Ваш результат</header>
+
+          <p class="seconds">Секунды: <span>58</span> </p>
+
+          <p class="clicks">Клики: <span>58</span> </p>
+
+          <a href="#" class="saveBtn">Сохранить результат</a>
+
+          <a href="#" class="playAgain" id="playAgain">Начать заново</a>
+
+          <img class="divider" src="images/divider.png"/>
+
+          <p class="share">Поделиться результатом</p>
+
+          <figure class="social-icons">
+
+            <a class="vkontake" data-type="outerLink" href="http://vkontakte.ru/share.php?url=http://www.priroda-amway.ru/competition/list/">
+
+              <img src="images/vkontakte.png"/>
+
+            </a>
+
+            <a class="facebook fb-like" data-href="http://www.priroda-amway.ru/competition/list/" data-send="false" data-type="outerLink" href="#facebook">
+
+              <img src="images/facebook.png"/>
+
+            </a>
+
+          </figure>
+
+        </section>
+
+        <!-- result screen end -->
+
+      </section>
+
+      <!-- success save start -->
+
+      <section class="save-result">
+
+        <p class="text">ваш результат успешно сохранен!</p>
+
+        <a href="#" class="backToGame">
+
+          <img src="images/backToGame.png"/>
+
+        </a>
+
+      </section>
+
+      <!-- success save end -->
+
+      </section>   
+
+    <!-- Main container end -->     
+
+    
+
+  <script type="text/javascript" src="js/vendor.js"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <script type="text/javascript">
+
+  
+  /*$('body').on('click',function(){
+
+    $('.front,.back').toggleClass('rotate');
+  })*/
+
+
+  </script>
+
+  </body>
+
+</html>
+
